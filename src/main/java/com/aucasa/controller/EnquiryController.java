@@ -17,7 +17,7 @@ import com.aucasa.service.PostService;
 
 @RestController
 @RequestMapping("/aucasa/enquiry")
-@CrossOrigin("http://localhost:3000")
+
 public class EnquiryController {
 
 	@Autowired

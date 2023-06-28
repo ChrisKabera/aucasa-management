@@ -28,7 +28,6 @@ import com.aucasa.service.UserService;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin("http://localhost:3000")
 public class UserController {
 
 	@Autowired
