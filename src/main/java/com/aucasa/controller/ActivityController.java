@@ -17,7 +17,7 @@ import com.aucasa.service.ActivityService;
 
 @RestController
 @RequestMapping("/aucasa/activities")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:3000")
 public class ActivityController {
 
 	@Autowired
